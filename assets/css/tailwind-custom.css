@@ -5,6 +5,14 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
+* {
+  border-radius: 0 !important;
+}
+
+.float {
+  border-radius: 50px !important;
+}
+
 html {
   scroll-behavior: smooth;
 }
