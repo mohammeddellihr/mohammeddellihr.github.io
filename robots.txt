@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://mohammeddellihr.wixok.com/sitemap.xml
