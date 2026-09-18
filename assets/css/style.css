@@ -1,0 +1,40 @@
+/* Base styles that complement Tailwind */
+* {
+  font-family: Josefin Sans, sans-serif;
+}
+
+/* Custom styles for specific elements */
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #000;
+}
+
+/* Floating Button */
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 1px #fff;
+    z-index: 100;
+}
+.float:hover {
+    color: #fff;
+    background-color: #000;
+}
+.my-float {
+    margin-top: 16px;
+}
